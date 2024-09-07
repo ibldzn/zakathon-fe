@@ -43,12 +43,16 @@ const LayananSection = () => {
       />
       <h1 className="font-bold text-3xl">Layanan</h1>
       <div className="grid grid-cols-3 gap-4 place-items-center w-3/4">
-        <LayananBaseButton icon={CashInHand} text="Bayar Zakat" />
+        <LayananBaseButton
+          icon={CashInHand}
+          text="Bayar Zakat"
+          link="/bayar-zakat"
+        />
         <LayananBaseButton icon={Sedekah} text="Salurkan Kebaikan" />
         <LayananBaseButton icon={Sheep} text="Qurban Online" />
         <LayananBaseButton icon={ActivityHistory} text="Histori Transaksi" />
         <LayananBaseButton icon={House} text="Ruang Edukasi" />
-        <LayananBaseButton icon={Crown} text="Pencapaian" />
+        <LayananBaseButton icon={Crown} text="Pencapaian" link="/pencapaian" />
         <LayananBaseButton icon={Statistics} text="Statistik" />
         <LayananBaseButton icon={Sedekah} text="Ibadah" />
         <LayananBaseButton icon={Feedback} text="Feedback" />
