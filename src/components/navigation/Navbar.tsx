@@ -3,16 +3,16 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="p-8 w-full flex justify-between shadow-lg">
+    <nav className="p-6 w-full flex justify-between shadow-lg">
       <Link href="/" className="font-bold text-lg">
-        Amalyfe
+        AMALYFE
       </Link>
       <div className="flex gap-4 text-sm items-center">
-        <Link href="/beranda" className="hover:underline">
+        <Link href="/" className="hover:underline">
           Beranda
         </Link>
-        <Link href="/cara-berzakat" className="hover:underline">
-          Cara Berzakat
+        <Link href="/layanan" className="hover:underline">
+          Layanan
         </Link>
         <Link href="/about" className="hover:underline">
           Tentang Kami
